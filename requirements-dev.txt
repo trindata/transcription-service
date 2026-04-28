@@ -1,0 +1,5 @@
+# Dev — dependências para desenvolvimento e testes
+-r requirements.txt
+
+pytest==9.0.3
+ipykernel==7.2.0
