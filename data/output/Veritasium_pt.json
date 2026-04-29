@@ -1,42 +1,42 @@
 {
   "metadata": {
-    "file_name": "Veritasium_pt.mp4",
-    "file_path": "data\\input\\Veritasium_pt.mp4",
+    "file_name": "Veritasium_pt.mp3",
+    "file_path": "data\\input\\Veritasium_pt.mp3",
     "language": "pt",
     "language_probability": 1,
     "duration": 31.3386875
   },
-  "text": "Em 1929, em Chicago, pessoas continuavam morrendo misteriosamente em suas residências. Levou 15 mortes para as autoridades perceberem que essas pessoas estavam sendo mortas por suas geladeiras. As geladeiras daquela época não eram mais apenas caixas de gelo, mas dependiam de um produto químico circulando na parte de trás para permanecerem frias. O melhor produto químico para este trabalho era o cloreto de metila, um gás tóxico e quase inodoro.",
+  "text": "Em 1929 em Chicago, pessoas continuavam morrendo misteriosamente em suas residências. Levo 15 mortes para as autoridades perceberem que essas pessoas estavam sendo mortas por suas geladeiras. As geladeiras daquela época não eram mais apenas caixas de gelo, mas dependiam de um produto químico circulando na parte de trás para permanecer em frias. O melhor produto químico para este trabalho era o cloreto de metila, um gasto tóxico e quase inodor.",
   "segments": [
     {
       "start": 0.0,
-      "end": 7.0,
-      "text": "Em 1929, em Chicago, pessoas continuavam morrendo misteriosamente em suas residências."
+      "end": 7.2,
+      "text": "Em 1929 em Chicago, pessoas continuavam morrendo misteriosamente em suas residências."
     },
     {
-      "start": 8.0,
-      "end": 14.0,
-      "text": "Levou 15 mortes para as autoridades perceberem que essas pessoas estavam sendo mortas por suas geladeiras."
+      "start": 8.2,
+      "end": 14.8,
+      "text": "Levo 15 mortes para as autoridades perceberem que essas pessoas estavam sendo mortas por suas geladeiras."
     },
     {
-      "start": 15.0,
-      "end": 19.0,
+      "start": 15.6,
+      "end": 19.3,
       "text": "As geladeiras daquela época não eram mais apenas caixas de gelo,"
     },
     {
-      "start": 19.0,
-      "end": 25.0,
-      "text": "mas dependiam de um produto químico circulando na parte de trás para permanecerem frias."
+      "start": 19.3,
+      "end": 25.3,
+      "text": "mas dependiam de um produto químico circulando na parte de trás para permanecer em frias."
     },
     {
-      "start": 26.0,
-      "end": 29.0,
+      "start": 25.900000000000002,
+      "end": 29.5,
       "text": "O melhor produto químico para este trabalho era o cloreto de metila,"
     },
     {
-      "start": 29.0,
-      "end": 31.0,
-      "text": "um gás tóxico e quase inodoro."
+      "start": 29.5,
+      "end": 31.6,
+      "text": "um gasto tóxico e quase inodor."
     }
   ]
 }

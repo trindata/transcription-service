@@ -15,6 +15,14 @@ Serviço de transcrição de áudio e vídeo em Python, construído sobre o mode
 
 ---
 
+## 🖥️ Uso
+
+![Caso de uso](docs/use-case.png)
+
+![Help](docs/help.png)
+
+---
+
 ## 📦 Outputs de exemplo
 
 **SRT** — pronto para legendas:
@@ -50,6 +58,7 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows
 # source .venv/bin/activate   # Linux/Mac
 
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
