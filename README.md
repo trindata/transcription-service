@@ -83,9 +83,9 @@ python run.py --help
 
 | Argumento       | Padrão       | Descrição                                      |
 |-----------------|--------------|------------------------------------------------|
-| `--input`       | —            | Arquivo ou diretório de entrada                |
+| `--input`       | `data/input` | Arquivo ou diretório de entrada                |
 | `--output`      | `data/output`| Diretório de saída                             |
-| `--language`    | `pt`         | Idioma da transcrição                          |
+| `--language`    | automatico   | Idioma da transcrição: `pt`, `en` ...          |
 | `--formats`     | todos        | Formatos: `srt vtt json docx txt`              |
 | `--model_size`  | `base`       | Tamanho do modelo Whisper                      |
 | `--device`      | `cpu`        | Device de inferência: `cpu` ou `cuda`          |

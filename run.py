@@ -8,7 +8,8 @@ Modos de uso:
 
   # Sobrescrevendo defaults:
   python run.py --output exports/
-  python run.py --input aula.mp4 --language en
+  python run.py --input aula.mp4 --language en       # força idioma
+  python run.py --input aula.mp4                     # detecta automaticamente
   python run.py --formats srt json
   python run.py --input aula.mp4 --output exports/ --language en --formats srt vtt
 
@@ -26,7 +27,7 @@ from app.services.transcription_exporter import TranscriptionExporter
 
 DEFAULT_INPUT_DIR    = "data/input"
 DEFAULT_OUTPUT_DIR   = "data/output"
-DEFAULT_LANGUAGE     = "pt"
+DEFAULT_LANGUAGE     = None
 DEFAULT_FORMATS      = ["srt", "vtt", "json", "docx", "txt"]
 DEFAULT_MODEL_SIZE   = "base"
 DEFAULT_DEVICE       = "cpu"
@@ -77,7 +78,7 @@ def build_parser():
     parser = argparse.ArgumentParser(description="Runner de transcrição de áudio/vídeo.")
     parser.add_argument("--input",        default=None,                 help="Caminho do arquivo ou diretório de entrada.")
     parser.add_argument("--output",       default=DEFAULT_OUTPUT_DIR,   help="Diretório de saída (padrão: data/output).")
-    parser.add_argument("--language",     default=DEFAULT_LANGUAGE,     help="Idioma da transcrição (padrão: pt).")
+    parser.add_argument("--language",     default=DEFAULT_LANGUAGE,     help="Idioma da transcrição. Se não informado detecta automaticamente (exemplo: pt, en).")
     parser.add_argument("--formats",      default=None, nargs="+",      help="Formatos de exportação (padrão: srt vtt json docx).")
     parser.add_argument("--model_size",   default=DEFAULT_MODEL_SIZE,   help="Tamanho do modelo Whisper (padrão: base). Opções: tiny base small medium large-v1 large-v2 large-v3.")
     parser.add_argument("--device",       default=DEFAULT_DEVICE,       help="Device de inferência (padrão: cpu). Opções: cpu cuda.")
