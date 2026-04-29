@@ -90,7 +90,7 @@ class TestArgParsing:
 
         assert args.input is None
         assert args.output == "data/output"
-        assert args.language == "pt"
+        assert args.language is None
         assert args.formats is None
         assert args.model_size == "base"
         assert args.device == "cpu"
